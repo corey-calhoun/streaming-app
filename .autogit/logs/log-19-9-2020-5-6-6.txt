@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Mon Oct 19 2020 05:06:06 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* .gitignore
+* src/components/Hero/Hero.css
+* src/components/Navbar/Navbar.css
+* src/components/Navbar/Navbar.js
+
+
+Created files:
+* .autogit/logs/log-19-9-2020-4-35-55.txt
+
+
+Deleted files:
+
+
+Renamed files:
