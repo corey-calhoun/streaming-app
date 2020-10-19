@@ -6,7 +6,6 @@
     position: fixed;
     top: 0;
     justify-content: space-between;
-    cursor: pointer;
 }
 
 .navbar__logo {
@@ -30,6 +29,7 @@
 
 .navbar__searchIcon {
     margin-left: 15px;
+    cursor: pointer;
 } 
 
 .navbar__avatar {
@@ -40,6 +40,7 @@
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
+    cursor: pointer;
 }
 
 .navbar__userName {
