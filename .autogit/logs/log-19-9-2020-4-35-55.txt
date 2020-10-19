@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Mon Oct 19 2020 04:35:55 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.css
+* src/components/Navbar/Navbar.css
+* src/components/Navbar/Navbar.js
+
+
+Created files:
+* .autogit/logs/log-19-9-2020-4-5-46.txt
+* src/components/Navbar/netflix-logo.png
+
+
+Deleted files:
+
+
+Renamed files:

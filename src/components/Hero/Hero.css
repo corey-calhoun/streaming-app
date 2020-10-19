@@ -1,6 +1,7 @@
 .hero {
     object-fit: contain;
     height: 450px;
+    margin-top: 65px;
 }
 
 .hero__contents {

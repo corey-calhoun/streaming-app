@@ -6,6 +6,7 @@
     position: fixed;
     top: 0;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .navbar__logo {
@@ -25,14 +26,23 @@
     color: #000;
     width: 250px;
     height: 30px;
-    padding-right: 5px;
 }
 
 .navbar__searchIcon {
-
+    margin-left: 15px;
 } 
 
 .navbar__avatar {
-    margin-top: 10px;
     margin-right: 20px;
+}
+
+.navbar__userInfo {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar__userName {
+   margin-top: 5px;
+   margin-right: 25px;
 }

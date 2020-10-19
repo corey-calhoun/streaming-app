@@ -21,15 +21,21 @@ function Navbar() {
                 />
                 <SearchOutlined
                  className="navbar__searchIcon"                 
-                 fontSize="large" 
+                 fontSize="large"
+                 type="button" 
+                 onClick="#"
                 />  
             </div>
             
-            <Avatar
-             className="navbar__avatar"
-             src="https://placeimg.com/640/480/people"
-             alt=""
-            />
+            <div className="navbar__userInfo">
+                <Avatar
+                 className="navbar__avatar"
+                 src="https://placeimg.com/640/480/people"
+                 alt=""
+                />  
+                <h3 className="navbar__userName">User</h3>
+            </div>
+            
         </div>
     )
 }
