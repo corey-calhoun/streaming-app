@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar';
 import Row from './components/Row/Row'
 import requests from './requests'
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="app">
       <header className="App-header">
-        {/* Navbar */}
+        <Navbar />
         <Hero />
 
         <Row 

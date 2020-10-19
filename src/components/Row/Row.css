@@ -2,6 +2,10 @@
     margin-left: 15px;
 }
 
+.row__title {
+    padding-top: 15px;
+}
+
 .row__posters {
     display: flex;
     overflow-y: hidden;
@@ -23,11 +27,11 @@
 }
 
 .poster:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .posterLarge {
-    max-height: 350px;
+    max-height: 345px;
 }
 
 .posterLarge:hover {

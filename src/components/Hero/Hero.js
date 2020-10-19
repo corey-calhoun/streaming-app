@@ -43,11 +43,13 @@ function Hero() {
                     {movie?.title || movie?.name || movie?.original_name}
                 </h1>
                 <div className="hero__buttons">
-                    <button className="hero_button">Play</button>
-                    <button className="hero_button">My List</button>
+                    <button className="hero__button">Play</button>
+                    <button className="hero__button">My List</button>
                 </div>
-                <h3 className="hero__description">{truncate(movie?.overview, 150)}</h3>
+                <h3 className="hero__description">{truncate(movie?.overview, 160)}</h3>
             </div>
+
+            <div className="hero__fadeBottom"></div>
         </header>
     )
 }

@@ -23,7 +23,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
     return (
         <div className="row">
-            <h2>{title}</h2>
+            <h2 className="row__title">{title}</h2>
             {/* container with cards */}
             <div className="row__posters">
                 {movies.map(movie => (

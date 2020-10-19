@@ -1,0 +1,16 @@
+.navbar {
+    height: 65px;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+
+.navbar__logo {
+    width: 100px;
+}
+
+.navbar__avatar {
+    margin-top: 10px;
+}
