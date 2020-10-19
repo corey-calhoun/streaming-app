@@ -1,12 +1,25 @@
 import { Avatar } from '@material-ui/core'
 import { SearchOutlined } from '@material-ui/icons'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './Navbar.css'
 import logo from './netflix-logo.png'
 
 function Navbar() {
+    const [show, handleShow] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if(window.scrollY > 100) {
+                handleShow(true)
+            } else handleShow(false);
+        })
+        return () => {
+            window.removeEventListener("scroll");
+        }
+    }, [])
+
     return (
-        <div className="navbar">
+        <div className={`navbar ${show && "navbar__black"}`}>
             <img 
              className="navbar__logo"
              src={logo}
