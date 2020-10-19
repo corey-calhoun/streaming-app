@@ -4,7 +4,7 @@ import axios from '../../axios';
 
 const base_url = "https://image.tmdb.org/t/p/original/";
 
-function Row({ title, fetchUrl }) {
+function Row({ title, fetchUrl, isLargeRow }) {
    
     const [movies, setMovies] = useState([]);
 
@@ -25,9 +25,13 @@ function Row({ title, fetchUrl }) {
         <div className="row">
             <h2>{title}</h2>
             {/* container with cards */}
-            <div className="row_posters">
+            <div className="row__posters">
                 {movies.map(movie => (
-                <img src={`${base_url}${movie.poster_path}`} alt={movie.name} />
+                <img 
+                 key={movie.id}
+                 className={`poster ${isLargeRow && "posterLarge"}`}
+                 src={`${base_url}${isLargeRow ? movie.poster_path : movie.backdrop_path}`} 
+                 alt={movie.name} />
                 ))}
             </div>
             

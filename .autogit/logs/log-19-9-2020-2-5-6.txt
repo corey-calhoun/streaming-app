@@ -1,0 +1,27 @@
+-------------------- Auto-Git Log --------------------
+		Mon Oct 19 2020 02:05:06 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* package-lock.json
+* package.json
+* src/App.js
+
+
+Created files:
+* .autogit/autogit.json
+* .dockerignore
+* .firebaserc
+* Dockerfile
+* firebase.json
+* src/axios.js
+* src/components/Row/Row.css
+* src/components/Row/Row.js
+* src/requests.js
+
+
+Deleted files:
+* src/logo.svg
+
+
+Renamed files:
