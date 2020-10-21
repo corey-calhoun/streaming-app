@@ -7,4 +7,4 @@ const requests = {
     fetchTopRated: `/movie/top_rated?api_key=${APIKEY}&language=en-US`,
 }
 
-export default requests;
+export default requests;          
